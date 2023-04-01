@@ -1,0 +1,93 @@
+/* general styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url("./src/bg.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Designing the header */
+header {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: black;
+}
+
+header div.navbar{
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+  height: 2rem;
+  cursor: pointer;
+  border-right: 1px solid #fff;
+  padding-right: 30px;
+}
+
+/* styling the nav bar */
+header nav {
+  padding-left: 25px;
+  display: flex;
+  column-gap: 30px;
+  justify-self: start;
+  font-weight: 600;
+  font-size: 0.85em;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* styling the call-to-action button */
+header > a {
+  text-decoration: none;
+  justify-self: end;
+  padding: 10px 15px;
+  font-size: small;
+  background-color: #800080;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+/* designing the main section */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20vh;
+  color: #fff;
+}
+
+main p{
+  margin-bottom: 25px;
+}
+
+main h1 {
+  font-size: 3rem;
+  width: 50%;
+  text-align: center;
+  color: #FFF;
+  font-weight: 600;
+}
+
+main a {
+  text-decoration: none;
+  font-size: small;
+  padding: 10px 13px;
+  background-color: #800080;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
